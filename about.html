@@ -1,0 +1,85 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Pankaj Mahanta</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    .about-section {
+      padding: 60px 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Pankaj Mahanta</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item">
+          <a class="btn btn-primary ms-3" href="Pankaj_CV_2024.pdf" download>Download CV</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="about-section container">
+  <h2 class="text-center mb-4">About Me</h2>
+  <div class="row mb-5">
+    <div class="col-md-6" data-aos="fade-right">
+      <p class="lead">
+        I'm Pankaj Mahanta — a CSE student who loves to build, learn, and explore the intersection of code and creativity.
+        With hands-on experience in software engineering, web development, and cybersecurity, I enjoy solving real-world problems using modern tech.
+      </p>
+      <p>
+        I’ve received several academic honors (VC & Dean’s awards), solved hundreds of programming problems, and contributed to meaningful university and freelance projects.
+        Outside the classroom, I’m active on GitHub, HackerRank, and participate in hackathons and programming contests.
+      </p>
+      <p>
+        My long-term goal? To contribute to impactful tech solutions and build products that make life better and more secure.
+      </p>
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <div class="gallery">
+        <img src="assets/images/about1.jpg" alt="Project Showcase" class="mb-4">
+        <img src="assets/images/about2.jpg" alt="Workshop or Event">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer bg-light text-center py-4">
+  <p>&copy; 2025 Pankaj Mahanta | Built with ❤️</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

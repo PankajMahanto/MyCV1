@@ -1,0 +1,101 @@
+<!-- education.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education | Pankaj Mahanta</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    .timeline {
+      position: relative;
+      margin-left: 20px;
+      border-left: 3px solid #0077ff;
+      padding-left: 20px;
+    }
+    .timeline-item {
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: "\f19d";
+      font-family: FontAwesome;
+      color: #0077ff;
+      position: absolute;
+      left: -35px;
+      top: 0;
+      font-size: 20px;
+      background: white;
+      padding: 5px;
+      border-radius: 50%;
+    }
+    .cert-link {
+      font-size: 0.9rem;
+      color: #0077ff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Pankaj Mahanta</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-3" href="Pankaj_CV_2024.pdf" download>
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h2 class="text-center mb-5">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up">
+        <h4>Green University of Bangladesh</h4>
+        <p><strong>BSc in Computer Science and Engineering</strong></p>
+        <p>Sept. 2021 – Ongoing | CGPA: 3.93/4.0</p>
+        <a href="#" class="cert-link">Transcript</a>
+      </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <h4>Cambrian College</h4>
+        <p><strong>Higher Secondary School Certificate (HSC)</strong></p>
+        <p>2017 – 2019 | GPA: 4.33/5.0</p>
+        <a href="#" class="cert-link">Transcript</a>
+      </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+        <h4>Nabinagar Shahwar Ali High School</h4>
+        <p><strong>Secondary School Certificate (SSC)</strong></p>
+        <p>2013 – 2017 | GPA: 5.0/5.0</p>
+        <a href="#" class="cert-link">Transcript</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-light text-center py-4">
+    <p>&copy; 2025 Pankaj Mahanta | Built with ❤️</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
